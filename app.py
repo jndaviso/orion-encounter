@@ -577,11 +577,11 @@ st.sidebar.header("Controls")
 
 oem_path_text = st.sidebar.text_input(
     "OEM file path (repo-relative)",
-    value="data/orion_oem.asc"
+    value="orion_oem.asc"
 )
 bsp_path_text = st.sidebar.text_input(
     "DE421 path (repo-relative)",
-    value="data/de421.bsp"
+    value="de421.bsp"
 )
 
 main_xmin = st.sidebar.number_input("Main X min", value=DEFAULT_MAIN_XMIN)
